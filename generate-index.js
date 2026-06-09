@@ -9,10 +9,8 @@ const html = `
   <ul>
     ${files.map(f => `<li><a href="${f}">${f}</a></li>`).join('\n')}
   </ul>
- <script>
-	alert('This is what a page with no index.html looks like. It's just a contents of the folder. Click on the links to see the content.');
-</script>
-</body>
+<script type="text/javascript" src="script1.js"> 
+</script></body>
 
 </html>`;
 fs.writeFileSync('index.html', html);
