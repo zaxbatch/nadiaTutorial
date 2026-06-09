@@ -1,1 +1,1 @@
-alert('This is what a page looks like without an index.html file. It is just a list of the folder contents. Click on the links to see the content");
+alert('This is what a page looks like without an index.html file. It is just a list of the folder contents. Click on the links to see the content');
